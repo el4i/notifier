@@ -13,4 +13,4 @@ RewriteRule (.*) /web/$1
 
 RewriteCond %{REQUEST_FILENAME} !-f 
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . yii2.loc/web/index.php
+RewriteRule ^.*$ web/index.php
