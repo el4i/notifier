@@ -69,7 +69,6 @@ Run as usual
 ```
 yii migrate
 ```
-Note: extension does not make any changes to the default migration usage. It simply alters the paths in which to look for migrations.
 
  Console Application
  ------------- 
