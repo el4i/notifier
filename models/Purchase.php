@@ -38,7 +38,7 @@ class Purchase extends ActiveRecord
             $upd->sms_sent ='Y';
             $upd->save();
         }
-        else
+        if ($chanel='EMAIL')
         {
             $upd = self::find()->where(['buy_id'=>$buy_id, 'customer_id'=>$cust_id])->one();
             $upd->email_sent ='Y';
