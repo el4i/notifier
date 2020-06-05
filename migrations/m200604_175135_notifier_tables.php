@@ -23,8 +23,8 @@ class m200604_175135_notifier_tables extends Migration
             'buy_id'   => 'INT(11) NOT NULL AUTO_INCREMENT',
             'product' => $this->string(255),
             'price'  => $this->float(),
-            'sms_sent' =>$this->string(1),
-            'email_sent' =>$this->string(1),
+            'sms_sent' =>"VARCHAR(1) NOT NULL DEFAULT 'N'",
+            'email_sent' =>"VARCHAR(1) NOT NULL DEFAULT 'N'",
             'customer_id' =>'INT(11) NOT NULL',
             'PRIMARY KEY (`buy_id`)',
         ]);
