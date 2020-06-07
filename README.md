@@ -40,6 +40,12 @@ REQUIREMENTS
 
 The minimum requirement by this project template that your Web server supports PHP 5.4.0.
 
+### Composer
+Run composer install in the project root directory 
+```
+composer install
+```
+
 
 CONFIGURATION
 -------------
